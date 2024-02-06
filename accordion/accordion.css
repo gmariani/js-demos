@@ -1,0 +1,22 @@
+#main-panel {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 225px;
+    display: block;
+    background-color: #ffff00;
+}
+
+.accordion {
+    background-color: #ff00ff;
+}
+
+.toggler {
+    background-color: #ff0000;
+}
+
+.element {
+    background-color: #ffff00;
+    overflow: hidden;
+}

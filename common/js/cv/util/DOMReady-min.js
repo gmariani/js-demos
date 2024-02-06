@@ -1,0 +1,1 @@
+var cv=cv||{};cv.onDOMReady=function(c,a){var e,b=function(){c.call(a||window);if(document.removeEventListener){document.removeEventListener("DOMContentLoaded",b,false)}},d=function(){try{document.documentElement.doScroll("left");clearInterval(e);e=null;b()}catch(f){}};if(!document.addEventListener){e=setInterval(d,5)}else{document.addEventListener("DOMContentLoaded",b,false)}};

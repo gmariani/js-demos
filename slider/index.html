@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>Slider</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="en" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <link rel="stylesheet" type="text/css" href="../common/css/reset.min.css" />
+        <link rel="stylesheet" type="text/css" href="slider.css" />
+        <script type="text/javascript" src="../common/js/greensock/TweenLite.js"></script>
+        <script type="text/javascript" src="../common/js/greensock/plugins/CSSPlugin.js"></script>
+        <script type="text/javascript" src="../common/js/cv/Core.js"></script>
+        <script type="text/javascript" src="../common/js/cv/util/DOMReady.js"></script>
+        <script type="text/javascript" src="../common/js/cv/controls/Slider.js"></script>
+        <script type="text/javascript" src="slider.js"></script>
+    </head>
+    <body>
+        <div>
+            <label for="sliderPercent">Percent (0-100) : </label>
+            <input id="sliderPercent" />
+            <br />
+
+            <label for="slider1">Percent (0-1) : </label>
+            <input id="slider1" />
+            <br />
+
+            <select id="slider2">
+                <optgroup label="low ranges">
+                    <option value="-3">baddest</option>
+                    <option value="-2">badder</option>
+                    <option value="-1">bad</option>
+                </optgroup>
+                <option value="0" selected="selected">OK</option>
+                <optgroup label="high ranges">
+                    <option value="1">good</option>
+                    <option value="2">better</option>
+                    <option value="3">best</option>
+                </optgroup>
+            </select>
+            <br />
+            <input id="xCoord" /> <input id="yCoord" />
+        </div>
+    </body>
+</html>

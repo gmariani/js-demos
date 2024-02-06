@@ -1,0 +1,35 @@
+#main-panel {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 225px;
+    display: block;
+    background-color: #ffff00;
+}
+
+input {
+    top: 55px;
+    position: relative;
+}
+
+ul.carousel {
+    top: 50px;
+    height: 100px;
+    width: 500px;
+    display: block;
+    background-color: #ff00ff;
+    overflow: hidden;
+    position: relative;
+}
+
+ul.carousel li {
+    background-color: #ff0000;
+    /*display:block;*/
+    position: absolute;
+    width: 75px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
